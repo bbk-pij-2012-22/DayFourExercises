@@ -49,7 +49,7 @@ for (x = str.length() - 1; x >= 0; x--)
     {
         String char1 = str.charAt(x)
         int int1 = Integer.parseInt(char1)
-        if ((x == str.length() - 1) && (int ==1))
+        if ((x == str.length() - 1) && (int1 == 1))
             {
             decimalTotal = decimalTotal + 1
             }
@@ -68,7 +68,7 @@ for (x = str.length() - 1; x >= 0; x--)
         println "Please choose from the following options...."
         println "To enter a decimal number and output the binary equivilent, enter 1."
         println "To enter a binary number and output its decimal equivilent, enter 2."
-        println "To exit the program, enter 3."
+        println "To exit the program, enter 0."
         String userOption = System.console().readLine()
         int option = Integer.parseInt(userOption) 
         switch(option)
@@ -93,4 +93,4 @@ for (x = str.length() - 1; x >= 0; x--)
                   println = "To exit the program, enter 3."
             }
     }
-     println "aqda"
+     

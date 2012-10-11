@@ -77,7 +77,7 @@ for (x = str.length() - 1; x >= 0; x--)
                  String s = System.console().readLine()
                  int D2B = Integer.parseInt(s)
                  int D2Bresult = decimal2binary(D2B)
-                 println = D2Bresult
+                 println D2Bresult
                  break;
             case 2: println "Please enter the binary number that you would like convert: "
                  String s = System.console().readLine()
